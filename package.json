@@ -1,0 +1,29 @@
+{
+  "name": "lab-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve",
+    "start": "webpack",
+    "build": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.82.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "webpack-cli": "^5.1.1"
+  }
+}
